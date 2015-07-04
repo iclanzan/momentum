@@ -1,0 +1,39 @@
+{
+  "name": "momentum",
+  "version": "0.0.1",
+  "description": "Simulated physics animations for user interfaces.",
+  "main": "index.js",
+  "scripts": {
+    "play": "beefy playground.js --live",
+    "test": "tape tests/**/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iclanzan/momentum.git"
+  },
+  "keywords": [
+    "animation",
+    "damping",
+    "friction",
+    "physics",
+    "simulation",
+    "spring",
+    "ui"
+  ],
+  "author": "Sorin Iclanzan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iclanzan/momentum/issues"
+  },
+  "homepage": "https://github.com/iclanzan/momentum#readme",
+  "devDependencies": {
+    "beefy": "^2.1.5",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0",
+    "watchify": "^3.2.3"
+  },
+  "dependencies": {
+    "eventemitter3": "^1.1.1",
+    "lodash": "^3.10.0"
+  }
+}
